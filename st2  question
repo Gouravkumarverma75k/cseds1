@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 320px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #4CAF50;
+        }
+
+        .card h2 {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/120" alt="Student Photo">
+        <h2>Rahul Sharma</h2>
+        <p><strong>Roll No:</strong> 21CS45</p>
+        <p><strong>Branch:</strong> Computer Science</p>
+        <p><strong>Year:</strong> 1st Semester</p>
+
+        <a class="btn" href="#">View Details</a>
+    </div>
+
+</body>
+</html>
